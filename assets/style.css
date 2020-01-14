@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    padding: 5px;
+    border-bottom: 2px solid #333;
+}
+
+thead {
+    background-color: #333;
+}
+
+tfoot {
+    background-color: #333;
+}
+
+.btn {
+    border: 0ch;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+.btn-xl {
+    width: auto;
+    height: 80px;
+}
+
+.btn-md {
+    width: auto;
+    height: 40px;
+}
+
+.hapus {
+    background-color: red;
+}
+
+.edit {
+    background-color: yellow;
+}
+
+.form {
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #333;
+    width: 400px;
+}
